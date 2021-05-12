@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header';
+import ContentDivider from './components/ContentDivider';
 function App() {
   return (
     <div className='App'>
-      <h1 className='title'>The green tea shop</h1>
+      <Header></Header>
+      <ContentDivider className='contentDivider' />
+      {/* navbar */}
     </div>
   );
 }

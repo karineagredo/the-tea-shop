@@ -7,7 +7,7 @@ import Links from './Links';
 ReactDOM.render(
   <React.StrictMode>
     <div id='mainContainer'>
-      <Links />
+      <App />
     </div>
   </React.StrictMode>,
   document.getElementById('root')

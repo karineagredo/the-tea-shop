@@ -77,7 +77,6 @@ const Links = (props) => {
     function coordinatesInSquare(tetha) {
       const x = getRadius * Math.cos(tetha);
       const y = getRadius * Math.sin(tetha);
-      console.log(`x: ${x}  y${y}`);
       return { x: x, y: y };
     }
     function getRadius() {
